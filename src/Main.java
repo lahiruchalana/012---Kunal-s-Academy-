@@ -20,9 +20,9 @@ public class Main {
         // declare
         Student lahiru = new Student();
 
-        lahiru.sno = 123;
-        lahiru.name= "Lahiru C.";
-        lahiru.marks = 56.5F;
+//        lahiru.sno = 123;
+//        lahiru.name= "Lahiru C.";
+//        lahiru.marks = 56.5F;
 
         System.out.println(lahiru.name);
         System.out.println(lahiru.marks);
@@ -36,4 +36,11 @@ class Student {
     int sno;
     String name;
     float marks;
+
+    Student () {
+        this.sno = 13;
+        this.name = "LC";
+        this.marks = 34.5f;
+    }
+
 }
