@@ -1,3 +1,5 @@
+package com.lahiru.first_lesson;
+
 public class Wrapper {
     public static void main(String[] args) {
 
@@ -13,7 +15,7 @@ public class Wrapper {
         System.out.println(vish.name);
 
         // but can not reassign that object
-//        vish = new Child("dauifaf"); // error occur
+//        vish = new com.lahiru.firstLesson.Child("dauifaf"); // error occur
 
         Child kill ;
         for (int i =0; i<1000000 ; i++ ) {

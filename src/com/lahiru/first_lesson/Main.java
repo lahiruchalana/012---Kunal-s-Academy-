@@ -1,4 +1,4 @@
-import javax.swing.text.html.StyleSheet;
+package com.lahiru.first_lesson;
 
 public class Main {
     public static void main(String[] args) {
@@ -62,7 +62,7 @@ class Student {
         this.name = name;
     }
 
-//    Student () {
+//    com.lahiru.firstLesson.Student () {
 //        this.sno = 13;
 //        this.name = "LC";
 //        this.marks = 34.5f;
