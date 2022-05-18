@@ -21,11 +21,14 @@ public class Main {
 //        lahiru.greeting();
 
         Student kasun = new Student(12,"kasun padmilar", 46.5f);
+        kasun.changeName("K Padmila");
 
-        System.out.println(kasun.sno);
-        System.out.println(kasun.name);
-        System.out.println(kasun.marks);
-        kasun.greeting();
+        Student random = new Student(lahiru);
+
+        System.out.println(random.sno);
+        System.out.println(random.name);
+        System.out.println(random.marks);
+        random.greeting();
 
 //        lahiru.sno = 123;
 //        lahiru.name= "Lahiru C.";
@@ -48,10 +51,24 @@ class Student {
         System.out.println("Welcome " + this.name);
     }
 
+    void changeName(String name) {
+        this.name = name;
+    }
+
+//    Student () {
+//        this.sno = 13;
+//        this.name = "LC";
+//        this.marks = 34.5f;
+//    }
+
     Student () {
-        this.sno = 13;
-        this.name = "LC";
-        this.marks = 34.5f;
+        this(25, "Lahiru", 46.2f);
+    }
+
+    Student (Student otherObject) {
+        this.sno = otherObject.sno;
+        this.name = otherObject.name;
+        this.marks = otherObject.marks;
     }
 
     Student (int sno, String name, float marks) {
