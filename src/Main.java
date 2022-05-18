@@ -30,6 +30,13 @@ public class Main {
         System.out.println(random.marks);
         random.greeting();
 
+        Student isuru = new Student(23, "Isuru", 49.8f);
+        Student random2 = isuru;
+        isuru.name = "isuru maldeniya";
+
+        System.out.println(random2.name);
+
+
 //        lahiru.sno = 123;
 //        lahiru.name= "Lahiru C.";
 //        lahiru.marks = 56.5F;
