@@ -15,6 +15,11 @@ public class Wrapper {
         // but can not reassign that object
 //        vish = new Child("dauifaf"); // error occur
 
+        Child kill ;
+        for (int i =0; i<1000000 ; i++ ) {
+            kill = new Child("some name" + i);
+            System.out.println(kill.name);
+        }
     }
 }
 
@@ -28,4 +33,8 @@ class Child {
         this.name = name;
     }
 
+    @Override
+    protected void finalize() throws Throwable {
+        System.out.println("Object move to the Garbage Collector");
+    }
 }
