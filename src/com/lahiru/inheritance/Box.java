@@ -17,4 +17,10 @@ public class Box {
         this.width = width;
         this.length = length;
     }
+
+    Box (Box object) {
+        this.height = object.height;
+        this.width = object.width;
+        this.length = object.length;
+    }
 }
