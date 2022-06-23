@@ -12,5 +12,8 @@ public class Main {
         System.out.println(machine.name);
         System.out.println(machine.price);
 
+
+        machine.toString(); // to access the Object.java super class ctrl + toString() click -->> redirect to the Object.java super class
+
     }
 }

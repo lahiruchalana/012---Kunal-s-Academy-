@@ -11,6 +11,7 @@ public class Machinery {
         this.price = price;
     }
 
+
     // Encapsulation here -->> data hiding with "private" key and getters and setters to change those id data
     public int getId() {
         return id;
