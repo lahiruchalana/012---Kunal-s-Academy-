@@ -6,6 +6,12 @@ public class IndustrialMachineries extends Machinery {
         super(name, id, price);
     }
 
+//    // static methods are not override
+//    @Override
+//    public void running(){
+//
+//    }
+
     public static void main(String[] args) {
         IndustrialMachineries indmchn = new IndustrialMachineries("sh", 83232, 24321424);
         indmchn.price = 2323; // Protected is working also in subclass

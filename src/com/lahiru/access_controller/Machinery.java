@@ -11,6 +11,10 @@ public class Machinery {
         this.price = price;
     }
 
+//    // static methods are not override
+//    public static void running(){
+//        System.out.println("machinery running");
+//    }
 
     // Encapsulation here -->> data hiding with "private" key and getters and setters to change those id data
     public int getId() {
