@@ -2,8 +2,14 @@ package com.lahiru.abstract_method;
 
 public abstract class Employee {
 
-    public abstract void workingType();
-    public abstract void workingHours();
-    public abstract void workingLocation();
+    int id;
+
+    public Employee(int id) {
+        this.id = id;
+    }
+
+    abstract void workingType();
+    abstract void workingHours();
+    abstract void workingLocation();
 
 }
