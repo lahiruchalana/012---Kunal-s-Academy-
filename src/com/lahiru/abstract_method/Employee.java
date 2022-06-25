@@ -8,6 +8,7 @@ public abstract class Employee {
         this.id = id;
     }
 
+    // abstract method means there is no-body (no-body contained)
     abstract void workingType();
     abstract void workingHours();
     abstract void workingLocation();

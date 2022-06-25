@@ -6,6 +6,9 @@ public class AssistanceManager extends Employee{
         super(id);
     }
 
+//    // can not hold a function without a body in other classes (non-abstract classes)
+//    public void someFun();
+
     @Override
     void workingType() {
         System.out.println("I am a assistance manager");
