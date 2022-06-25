@@ -2,6 +2,10 @@ package com.lahiru.interfaces;
 
 // class to interface inheritance -> using "implements"
 public class Home implements Kitchen, Dining, BedRoom {
+
+    int numberOfAllWindows;
+    int numberOfAllDoors;
+
     @Override
     public void electricItemsIsAtOnOff() {
         System.out.println("Electric items are at off mode");
