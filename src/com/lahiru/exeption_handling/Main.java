@@ -6,11 +6,19 @@ public class Main {
         int b = 0;
 
         try {
-            divide(a, b);
+//            divide(a, b);
+            // mimicing
+//            throw new Exception("mimicing exception");
+            String name = "lahiru";
+            if (name.equals("lahiru")) {
+                throw new MyException("new exception from lahiru");
+            }
+        } catch (MyException e) {
+            System.out.println(e.getMessage());
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println("normal exception");
         } finally {
             System.out.println("'finally' always executed");
         }
