@@ -14,5 +14,6 @@ public class Main {
 
         System.out.println(twin.age + ", " + twin.name);
         System.out.println(Arrays.toString(lahiru.arr));
+        System.out.println(Arrays.toString(twin.arr));
     }
 }
